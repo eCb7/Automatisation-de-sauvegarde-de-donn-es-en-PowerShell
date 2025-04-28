@@ -77,5 +77,4 @@ catch {
     Write-Host "Erreur lors de l'envoi de l'email : $_" -ForegroundColor Red
 }
 
-# Fin du script
 Write-Host "Sauvegarde terminée et compressée sous : $zipPath" -ForegroundColor Green
