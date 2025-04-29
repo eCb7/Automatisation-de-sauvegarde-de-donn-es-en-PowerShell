@@ -78,3 +78,4 @@ catch {
 }
 
 Write-Host "Sauvegarde terminée et compressée sous : $zipPath" -ForegroundColor Green
+# FIN
