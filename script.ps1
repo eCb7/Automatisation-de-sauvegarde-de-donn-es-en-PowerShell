@@ -93,7 +93,7 @@ Write-Host "Sauvegarde terminée et compressée sous : $zipPath" -ForegroundColo
 # FIN
 
 ###################################################################
-# 🗂️ LÉGENDE DES ÉLÉMENTS DU SCRIPT POWERHELL
+# 🗂️ LÉGENDE DES ÉLÉMENTS DU SCRIPT POWERSHELL
 #
 # #                         → commentaire, non exécuté
 # $nomVariable              → une variable stockant des données (ex : chemins, texte, date)
@@ -113,4 +113,6 @@ Write-Host "Sauvegarde terminée et compressée sous : $zipPath" -ForegroundColo
 # -Force                    → force une action même si bloquée
 # -ForegroundColor          → couleur du texte affiché
 # .Add(...)                 → ajoute un élément à une liste (ex : destinataires d’email)
+# | (pipe)                  → transmet les résultats d’une commande à la suivante (pipeline)
+#                           → ex : liste → filtre → suppression, en une seule ligne
 ###################################################################
